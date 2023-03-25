@@ -1,0 +1,25 @@
+// FNC buscarInfo H3 NO COINCIDENCIA:
+
+.noCoincidencia {
+
+    font-size: 20px;
+    color: black;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+
+
+    @media (min-width: 990px) {
+        font-size: 26px;
+    }
+
+}
+
+// MARGEN MODAL CARRITO PARA CENTRAR LAS CARDS EN MOBILE:
+
+.modal {
+    --bs-modal-margin: 5.5rem;
+}

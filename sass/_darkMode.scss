@@ -1,0 +1,45 @@
+// BOTONES DARK Y LIGHT:
+
+.btn-light{
+    background-color: #fff;
+    color: #000000;
+}
+
+.btn{
+    margin-left: 0px !important;
+}
+
+// CAMBIOS DARK MODE:
+
+.darkMode {
+    background-color: #444444;
+}
+
+.darkMode .menu1 {
+    background-color: #afb0b1;
+}
+
+.darkMode .card {
+    color: black;
+    background: #afb0b1;
+}
+
+.darkMode .card-body {
+    background-color: #afb0b1;
+}
+
+.darkMode .modal-body{
+    background-color: #afb0b1;
+}
+
+.darkMode .modal-footer{
+    background-color: #afb0b1;
+}
+
+.darkMode #precioTotal{
+    background-color: #afb0b1;
+}
+
+.darkMode .noCoincidencia{
+    color: white;
+}

@@ -1,0 +1,123 @@
+// BOTONES NAV BAR OPCIONES GENERALES:
+
+#verInventario, #navbarDropdown, #rangoPrecio ,#agregarCel, #eliminarCel {
+    font-family: 'Lato';
+    color: white;
+    background-color: #0D6EFD;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.50em;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  
+  // NO TOCAR:
+  #eliminarCel {
+  
+    margin-bottom: 10px;
+  
+    @media (min-width: 990px) {
+      margin-bottom: 0em;
+    }
+  
+  }
+  
+  // ElIMINAR CEL NO TOCAR
+  
+  #verInventario{
+  
+    @media (min-width: 990px) {
+      margin-right: 20px;
+    }
+  
+  }
+  
+  #verInventario, #rangoPrecio , #agregarCel,
+  #eliminarCel {
+  
+    @media (min-width: 990px) {
+      margin-left: 20px;
+    }
+  
+  }
+  
+  // EFECTO SUBRAYADO MENÚ PRINCIPAL:
+  
+  .subrayado {
+    background-image: linear-gradient(transparent 0%, transparent 94%, #ffffff 94%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms;
+  }
+  
+  .subrayado:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+  }
+  
+  // EFECTO SUBRAYADO SUB MENÚ DE "ORDENAR":
+  
+  #alfabeticamente, #menorPrecio, #mayorPrecio, #menorMemoriaInterna, #mayorMemoriaInterna, #menorMemoriaRam, #mayorMemoriaRam, #menorResolucionCam, #mayorResolucionCam{
+    background-image: linear-gradient(transparent 0%, transparent 94%, #4d4d4d 94%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms;
+  }
+  
+  #alfabeticamente:hover, #menorPrecio:hover, #mayorPrecio:hover, #menorMemoriaInterna:hover, #mayorMemoriaInterna:hover, #menorMemoriaRam:hover, #mayorMemoriaRam:hover, #menorResolucionCam:hover, #mayorResolucionCam:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+  }
+  
+  // BOTONES EN GENERAL:
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  //ORDENAR - BOTONES FILTROS - MAY. PREC., MNR. PREC., ALFAB.:
+  
+  .dropdown-item {
+  
+    font-family: 'Lato';
+    color: rgb(121, 119, 119);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px !important;
+    text-align: center;
+  
+    @media (min-width: 900px) {
+      font-size: 17px;
+    }
+  
+  }
+  
+  .dropdown-item:hover {
+    color: black;
+  }
+  
+  // INPUT BUSCADOR:
+  
+  #buscador {
+  
+    margin-bottom: 1rem;
+    margin-right: 0rem !important;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0.65em;
+  
+    @media (min-width: 990px) {
+      margin-left: 25px;
+      margin-bottom: 0px !important;
+    }
+  
+  }

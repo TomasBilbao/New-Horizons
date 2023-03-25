@@ -1,0 +1,43 @@
+h2.logo {
+    color: black;
+    margin-top: 0px !important;
+}
+
+#Carga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2em;
+}
+
+.spinner-border.text-success {
+    color: rgb(0, 0, 0) !important;
+    margin-top: 1em;
+    --bs-spinner-width: 5rem;
+    --bs-spinner-height: 5rem;
+
+    @media (min-width: 600px) {
+        --bs-spinner-width: 3rem;
+        --bs-spinner-height: 3rem;
+    }
+    
+}
+
+#inicioImg {
+
+    height: auto;
+    width: 60%;
+    margin-bottom: 2em;
+
+    @media (min-width: 600px) {
+        width: 40%;
+    }
+
+    @media (min-width: 900px) {
+        width: 25%;
+        margin-bottom: 1em;
+    }
+
+}
